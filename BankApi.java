@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class BankApi {
+public interface BankApi {
+    int checkBalance();
+    void transferMoney(int money);
 }
